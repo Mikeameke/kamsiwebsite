@@ -3,56 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <div class="parent">
+    <!-- This is the header section -->
+    <header>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="#form">Form</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
 
-        <div class="container">
-            <div class="user-input">
-                <div>
-                    <h1>Login</h1>
-                </div>
-                <div class="form-input">
-                    
-                    <form action="">
-                        <div>
-                            
-                            <label for="username">Username</label>
-                            <input type="text" placeholder="Type your username">
-                        </div>
-                        <div>
-                            <label for="password">Password</label>
-                            <input type="password" placeholder="Type your password">
-                        </div>
-                    </form>
-                    <div>
-                        <h4>Forgot password?</h4>
-                    </div>
-                    <div class="button">
-                        <button>LOGIN</button>
-                    </div>
-                    <div>
-                        <h5>Or Sign Up Using</h5>
-                        <h6>Or sign Up Using</h6>
-                    </div>
-                    <div class="google">
+        </ul>
+    </header>
+    <!-- This is the intro section -->
+    <div class="intro-container">
 
-                        <img src="./google.png" alt="">
-                    </div>
-                    <div class="facebook">
-                        <img src="./facebook.png" alt="">
-                    </div>
-                    <div class="twitter">
-                        <img src="./twitter.png" alt="">
-                    </div>
-                </div>
-    
-            </div>
+
+        <div class="left-text">
+            <h2>LET'S DO THIS!</h2>
+        </div>
+        <div class="right-text">
+            <h3>Racing Begins!</h3>
         </div>
     </div>
+    <!-- This is the form section -->
+    <div class="parent" id="form">
+    <div class="container">
+        <div>
+            <h1>Login</h1>
+        </div>
+        <div class="form-input">
+            
+            <form action="">
+                <div class="user-input">
+                    
+                    <label class="label" for="username">Username</label>
+                    <input type="text" placeholder="Type your username">
+                </div>
+                <div class="user-input">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Type your password">
+                </div>
+            </form>
+            <div class="forgot-password">
+                <h4>Forgot password?</h4>
+            </div>
+            <div class="button">
+                <button>LOGIN</button>
+            </div>
+            <div>
+                <h5>Or Sign Up Using</h5>
+                
+            </div>
+            
+            <div class="social-icons">
+
+                <div class="social-icon facebook">
+                    <a href=""><img src="./facebook.png" alt=""></a>
+                </div>
+                <div class="social-icon twitter">
+                    <a href=""><img src="./twitter.jpg" alt=""></a>
+                </div>
+                <div class="social-icon google">
+
+                    <a href=""><img src="./google.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+
     
+    </div>
+</div>
 </body>
 </html>
